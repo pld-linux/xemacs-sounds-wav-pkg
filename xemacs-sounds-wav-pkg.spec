@@ -2,12 +2,12 @@ Summary:	XEmacs Microsoft sound files
 Summary(pl):	Microsoftowe pliki d¼wiêkowe do XEmacsa
 Name:		xemacs-sounds-wav-pkg
 %define 	srcname	sounds-wav
-Version:	1.10
-Release:	2
+Version:	1.12
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	89dff9f3b8e1aaaa19f000035e3aa199
+# Source0-md5:	3045a90ca53b22ebb7aa52f611bafcd3
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
