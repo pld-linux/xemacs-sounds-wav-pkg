@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XEmacs Microsoft sound files.
 
-%description -l pl 
+%description -l pl
 Microsoftowe pliki d¼wiêkowe do XEmacsa.
 
 %prep
@@ -28,14 +28,14 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/sounds-wav/ChangeLog 
+gzip -9nf lisp/sounds-wav/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/sounds-wav/ChangeLog.gz 
+%doc lisp/sounds-wav/ChangeLog.gz
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
