@@ -2,7 +2,7 @@ Summary:	XEmacs Microsoft sound files
 Summary(pl):	XEmacs Microsoft sound files
 Name:		xemacs-sounds-wav-pkg
 %define 	srcname	sounds-wav
-Version:	1.09
+Version:	1.10
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
