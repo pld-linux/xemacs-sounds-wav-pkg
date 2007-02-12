@@ -1,5 +1,5 @@
 Summary:	XEmacs Microsoft sound files
-Summary(pl.UTF-8):   Microsoftowe pliki dźwiękowe do XEmacsa
+Summary(pl.UTF-8):	Microsoftowe pliki dźwiękowe do XEmacsa
 Name:		xemacs-sounds-wav-pkg
 %define 	srcname	sounds-wav
 Version:	1.12
