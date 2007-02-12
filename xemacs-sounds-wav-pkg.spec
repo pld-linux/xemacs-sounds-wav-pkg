@@ -1,5 +1,5 @@
 Summary:	XEmacs Microsoft sound files
-Summary(pl):	Microsoftowe pliki d¼wiêkowe do XEmacsa
+Summary(pl.UTF-8):   Microsoftowe pliki dÅºwiÄ™kowe do XEmacsa
 Name:		xemacs-sounds-wav-pkg
 %define 	srcname	sounds-wav
 Version:	1.12
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XEmacs Microsoft sound files.
 
-%description -l pl
-Microsoftowe pliki d¼wiêkowe do XEmacsa.
+%description -l pl.UTF-8
+Microsoftowe pliki dÅºwiÄ™kowe do XEmacsa.
 
 %prep
 %setup -q -c
